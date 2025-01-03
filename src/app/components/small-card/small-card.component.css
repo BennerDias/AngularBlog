@@ -1,0 +1,22 @@
+.SmallCard {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5.5vh;
+  border-bottom: 1px solid #202020;
+  width: 91.3vh;
+  margin-left: 5vh;
+  margin-bottom: 5.7vh;
+
+}
+li{
+  list-style: none;
+}
+img {
+  width: 350px;
+  height: 155px;
+  object-fit: cover;
+}
+#SmallContent{
+  margin-left: 20px;
+
+}

@@ -1,0 +1,19 @@
+.bigcard {
+  width: 92vh;
+  text-align: left;
+}
+img{
+  width: max-content;
+}
+#date{
+  padding-bottom: 10px;
+  color: #303030;
+  font-size: 0.8rem;
+}
+p{
+  color: #5c5c5c;
+  padding-top: 10px;
+}
+#head{
+  color: #cbcbcb;
+}

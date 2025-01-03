@@ -1,0 +1,30 @@
+img{
+  width: 50px;
+}
+#MenuLeft{
+  display: flex;
+  width: 94%;
+  margin-left: 55px;
+  margin-top: 10px;
+  align-items: center;
+}
+#Home{
+  border-radius: 100%;
+}
+ul {
+  list-style-type: none;
+}
+#MenuRight {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  align-items: center;
+}
+li{
+  margin-right: 8vh;
+  list-style: none;
+  text-transform: uppercase;
+}
+#MenuRight li{
+  margin-right: 0.5vh;
+}

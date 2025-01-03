@@ -1,0 +1,9 @@
+.Articles {
+  display: flex;
+  margin-left: 5.5vh;
+  margin-right: 5.5vh;
+}
+
+li{
+  list-style: none;
+}
