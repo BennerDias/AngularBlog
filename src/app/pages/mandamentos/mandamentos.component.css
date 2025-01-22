@@ -1,0 +1,45 @@
+#mandamentos {
+  width: 94%;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  position: relative;
+  background-image: url('https://s2.glbimg.com/_c96v5sXLiQRUkkqbSD4Hbskn0s=/0x0:1200x857/924x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2019/02/18/dzvdlugxqamq4al.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  margin-left: 6vh;
+  margin-right: 6vh;
+  align-items: center;
+  justify-content: center;
+}
+#mandamentos ol {
+  list-style-position: inside;
+  color: white;
+  font-size: 2.5rem;
+  background-color: transparent;
+  text-decoration: ;
+}
+#mandamentos li {
+  width: fit-content;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 4.33rem;
+    font-weight: bolder;
+    display: flex;
+    text-align: justify;
+    line-height: 0.9;
+    letter-spacing: 6px;
+}
+#title {
+  margin-top: 2vh;
+  border-bottom: 2px solid #202020;
+  border-top: 2px solid #202020;
+  width: 94%;
+  margin-left: 6vh;
+  margin-right: 6vh;
+}

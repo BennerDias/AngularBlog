@@ -1,14 +1,14 @@
-<app-menu></app-menu>
 <app-title></app-title>
 <div class="Articles">
   <div id="MainArticle">
-    <app-big-card></app-big-card>
+    <app-big-card [data]="bigCardData"></app-big-card>
   </div>
   <div id="OtherArticles">
-    <ul>
-      <li><app-small-card></app-small-card></li>
-      <li><app-small-card></app-small-card></li>
-      <li><app-small-card></app-small-card></li>
+    <ul class="smallComp">
+      <li *ngFor="let smallCard of smallCardData">
+        <app-small-card [data]="smallCard">
+        </app-small-card>
+      </li>
     </ul>
   </div>
 </div>

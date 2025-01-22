@@ -12,11 +12,24 @@ li{
   list-style: none;
 }
 img {
-  width: 350px;
-  height: 155px;
-  object-fit: cover;
+  width: 25vh;
 }
 #SmallContent{
   margin-left: 20px;
 
+}
+#SmallContent p{
+  color: #5c5c5c;
+  margin-top: 1vh;
+}
+#SmallContent h2{
+  color: #cbcbcb;
+}
+#date {
+  padding-bottom: 10px;
+  color: #303030;
+  font-size: 0.8rem;
+}
+a{
+  text-decoration: none;
 }

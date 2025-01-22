@@ -8,6 +8,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { TitleComponent } from './components/title/title.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { BigCardComponent } from './components/big-card/big-card.component';
+import { IdolosComponent } from './pages/idolos/idolos.component';
+import { MandamentosComponent } from './pages/mandamentos/mandamentos.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { BigCardComponent } from './components/big-card/big-card.component';
     HomeComponent,
     TitleComponent,
     SmallCardComponent,
-    BigCardComponent
+    BigCardComponent,
+    IdolosComponent,
+    MandamentosComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

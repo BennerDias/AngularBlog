@@ -7,6 +7,15 @@ img{
   margin-left: 55px;
   margin-top: 10px;
   align-items: center;
+  justify-content: center;
+}
+#mandamentos:hover {
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+#idolos:hover {
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
 }
 #Home{
   border-radius: 100%;
@@ -26,5 +35,29 @@ li{
   text-transform: uppercase;
 }
 #MenuRight li{
-  margin-right: 0.5vh;
+  margin-right: 1vh;
+}
+#github{
+  font-size: 1.5rem;
+}
+#linkedin{
+  font-size: 1.5rem;
+}
+#instagram{
+  font-size: 1.5rem;
+}
+#github:hover {
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+#linkedin:hover {
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+#instagram:hover {
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+a {
+  text-decoration: none;
 }

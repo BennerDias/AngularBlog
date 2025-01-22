@@ -17,3 +17,6 @@ p{
 #head{
   color: #cbcbcb;
 }
+a {
+  text-decoration: none;
+}
